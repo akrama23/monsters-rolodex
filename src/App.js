@@ -14,7 +14,8 @@ class App extends Component{
 
   componentDidMount(){
     fetch("https://jsonplaceholder.typicode.com/users")
-      .then((res) => (res))
+      .then((res) => res.json())
+      .then((users) => console.log(users))
 
   }
 
