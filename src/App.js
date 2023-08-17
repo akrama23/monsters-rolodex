@@ -16,7 +16,7 @@ class App extends Component{
       .then((users) => this.setState(() => {
         return { monsters: users}
       },
-      console.log(this.state)
+      // console.log(this.state)
       ));
 
   };
