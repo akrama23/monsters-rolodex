@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./App.css";
 
 class App extends Component {
+  //constructor starts first
   constructor() {
     super();
 
@@ -27,7 +28,7 @@ class App extends Component {
         )
       );
   }
-
+//render starts second
   render() {
     console.log("render 2");
     return (
